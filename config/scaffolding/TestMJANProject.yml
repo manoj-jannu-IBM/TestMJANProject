@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+services:
+- serviceName: project.testmjan.integrations:dW
+  packages:
+  - name: TestMJANProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
